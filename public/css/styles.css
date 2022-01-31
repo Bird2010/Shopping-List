@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    background-color: blue;
+  }
+  
+  h1 {
+      font-family: Arvo;
+      font-size: 5em;
+      text-align: center;
+  }
+
+  .jumbotron {
+    text-align: center;
+    color: blue;    
+    border-color: blue;
+    border-style: solid;
+    border-width: 10px;    
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .middle {
+      background-color: blue;
+  }
+  
+  .mylist {
+    width: 100%;
+    max-width: 330px;
+    background-color: white;
+    padding: 40px;
+    margin: auto;
+  }
+
+  .item {
+      background-color: white;
+  }
+
+  .lbl {
+      padding-left: 4px;
+      font-size: 1.5em;
+  }
+
+  input[type="text"] {
+    font-size: 1.5em;
+    border: none;
+    text-align: center;
+  }
+
+  input[type="text"]:focus {
+    outline:none;
+  }
