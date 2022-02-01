@@ -26,7 +26,7 @@ html, body {
   
   .mylist {
     width: 100%;
-    max-width: 330px;
+    max-width: 340px;
     background-color: white;
     padding: 40px;
     margin: auto;
@@ -49,4 +49,13 @@ html, body {
 
   input[type="text"]:focus {
     outline:none;
+  }
+
+  button {
+    min-height: 40px;
+    width: 40px;
+    border-color: transparent;
+    background-color: blue;
+    color: #fff;
+    font-size: 25px;
   }
